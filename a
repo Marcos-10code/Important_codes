@@ -1,0 +1,11 @@
+import random
+
+character = ("+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
+Password = int(input("Insert te lenght of your password:"))
+lil_password = ""
+
+for i in range(Password):
+    Someting = random.randint = (random.choice(character))
+    lil_password += Someting
+
+print(lil_password)
